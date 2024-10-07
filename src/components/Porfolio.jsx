@@ -22,7 +22,7 @@ const Porfolio = () => {
                 </div>
                 <div className="md:grid items-center mt-4 mb-4 object-cover gap-8  md:grid-cols-3">
                     <div className="card bg-base-100  shadow-xl">
-                    <Image src={profile} />
+                    <Image src={profile} alt='image'/>
                         <div className="card-body">
                             <h2 className="card-title">
                             OmniFood - Never Cook Again!
@@ -38,7 +38,7 @@ const Porfolio = () => {
                         </div>
                     </div>
                     <div className="card bg-base-100  shadow-xl">
-                    <Image src={profile2} />
+                    <Image src={profile2} alt='image'/>
                         <div className="card-body">
                             <h2 className="card-title">
                             Nexter - Ultimate Personal Freedom
@@ -54,7 +54,7 @@ const Porfolio = () => {
                         </div>
                     </div>
                     <div className="card bg-base-100 shadow-xl">
-                    <Image className='image-full' src={profile3} />
+                    <Image className='image-full' src={profile3} alt='image'/>
                         <div className="card-body">
                             <h2 className="card-title">
                             Natorus - Exciting tours for adventure
@@ -70,7 +70,7 @@ const Porfolio = () => {
                         </div>
                     </div>
                     <div className="card bg-base-100  shadow-xl">
-                    <Image src={profile6} />
+                    <Image src={profile6} alt='image' />
                         <div className="card-body">
                             <h2 className="card-title">
                             Agency
@@ -86,7 +86,7 @@ const Porfolio = () => {
                         </div>
                     </div>
                     <div className="card bg-base-100 shadow-xl">
-                    <Image src={profile5} />
+                    <Image src={profile5} alt='image'/>
                         <div className="card-body">
                             <h2 className="card-title">
                             Web Desing

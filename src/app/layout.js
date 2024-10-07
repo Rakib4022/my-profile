@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" class="scroll-smooth">
       <body className={inter.className}>
-        <div className="w-[1000px] mx-auto">
+        <div className="container mx-auto">
           <Navbar></Navbar>
           <div>
             {children}

@@ -7,8 +7,8 @@ const Skills = () => {
     return (
         <div id='skill'>
             <SectionTitle heading={'Skills'} subheading={'My technical level'}></SectionTitle>
-            <div className='flex gap-6'>
-                <div className='w-1/2 mb-3 p-6 rounded-xl border'>
+            <div className='lg:flex gap-6 justify-center p-4'>
+                <div className='lg:w-1/2 mb-3 p-6 rounded-xl border'>
                     <p className="text-black text-xl my-4 text-center">Frontend Developer</p>
                     <div className='grid  ml-4  grid-cols-2 gap-3'>
                         <div className='flex  gap-4'>
@@ -68,7 +68,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='w-1/2 mb-3 p-6 rounded-xl border'>
+                <div className='lg:w-1/2 mb-3 p-6 rounded-xl border'>
                     <p className="text-black text-xl my-4 text-center">Backend Developer</p>
                     <div className='grid  ml-4  grid-cols-2 space-y-3 gap-3'>
                         <div className='flex  gap-4'>
